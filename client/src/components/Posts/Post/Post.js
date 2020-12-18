@@ -28,10 +28,6 @@ const Post = ({ post, setCurrentId }) => {
         <Button style={{ color: 'white' }} size="small" onClick={() => setCurrentId(post._id)}><MoreHorizIcon fontSize="default" /></Button>
       </div>
       
-      <div className={classes.details}>
-        <Typography variant="body2" color="textSecondary" component="h2"><b><mark>{post.tags.map((tag) => `#${tag} `)}</mark></b></Typography>
-      </div>
-      
       <Typography className={classes.title} variant='h5' >{post.title}</Typography>
       
       <CardContent >
