@@ -25,7 +25,6 @@
    - Deploy the client side on Netlify and paste the heroku url in ```client/api/index.js file```. 
      - Your site will be live.
 
-### [Live](https://react-memories-creator.netlify.app/)
 ![Screenshot (24)](https://user-images.githubusercontent.com/50996696/102591125-85479600-4137-11eb-99c7-665496b836e7.png)
 
 > If you stuck somewhere please do read [my_blog](https://dev.to/smileyshivam/deploy-a-full-stack-mern-app-using-netlify-and-heroku-9da).
